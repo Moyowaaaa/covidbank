@@ -3,7 +3,7 @@
         <div class="nav">
             <router-link to="/Resources" class="link">Back</router-link> 
         </div>
-        <h1>Corona Virus</h1>
+        <h2>Corona Virus</h2>
 
         
         <p class="cov">
@@ -35,7 +35,7 @@ Those diagnosed with COVID-19 or who believe they may be infected are advised by
 
 
      <div class="analysis">
-             <iframe width="1200" class="iframe"  height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=bc95c298-03ba-4c0a-af11-dfc2db4abf7f&autoAuth=true&ctid=662847df-c812-48bf-9cee-a61c7c21cec8&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWFmcmljYS1ub3J0aC1hLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true"></iframe>
+             <iframe class="iframe"  height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=bc95c298-03ba-4c0a-af11-dfc2db4abf7f&autoAuth=true&ctid=662847df-c812-48bf-9cee-a61c7c21cec8&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWFmcmljYS1ub3J0aC1hLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true"></iframe>
          </div>
     </div>
 </template>
@@ -83,5 +83,12 @@ p{
 .analysis{
     margin-bottom:10%;
     margin-top:10%;
+}.iframe{
+    width:1200px
+}
+@media screen and (max-width: 600px) {
+.iframe{
+    width:100%;
+}
 }
 </style>

@@ -20,10 +20,13 @@
 2.	Business Process 
 3.	Service 
 4.	Online 
-
+<br>
 1)	Communication Perspective: According to this perspective, E-commerce is the delivery of information, product/services, or payments over telecommunication channels, computer networks, or any other electronic mode of communication. 
+<br>
 2)	Business Process Perspective: This says that E-commerce is the application of technology towards the automation of business transactions and workflow
+<br>
 3)	Service Perspective: E-commerce is defined as a tool that addresses the desire of firms, consumers, and management to cut service costs while improving the quality of goods/services and increasing the speed of service delivery. 
+<br>
 4)	Online Perspective: E-commerce provides the capability of buying and selling products and information on the internet and other online services
 
             </p>
@@ -41,7 +44,8 @@ export default {
 <style scoped>
 .cov{
     width:80%;
-    margin-left:10%
+    margin-left:10%;
+    margin-bottom:5%;
 }
 .link{
     margin-top:30px;

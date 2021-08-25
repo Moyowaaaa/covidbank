@@ -1,7 +1,8 @@
 <template>
 <div class="body">
+   <div class="nav">
        <router-link class="link" to="/">Home</router-link> 
-
+       </div>
 
        <div class="header">
           <h2>Resources</h2>
@@ -43,6 +44,11 @@ export default {
 
 .content{
    text-Align:left;
+}
+.nav{
+   background:steelblue;
+   height:40px;
+   font-Size:30px;
 }
 
 .link:hover{

@@ -2,19 +2,19 @@
   <div class="home">  
     <div class = "left">
       
-      <div class="rt">
+      
         <button class="button">
           <router-link class="link" to="/analysis">Visualization</router-link></button> 
-      </div>
+     
      
     </div>
 
     <div class = "right">
      
-      <div class="but">
+    
            <button class="button">
       <router-link to="/Resources" class="link" >Resources</router-link> 
-      </button></div> </div>   
+      </button></div>   
   </div>
 </template>
 
@@ -38,8 +38,7 @@ export default {
 }
 .left{
 
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  
   height:100%;
   width:50%;
    color:white; 
@@ -59,18 +58,14 @@ export default {
   color:white;
   
 }
-.rt{
-  position:absolute;
-  top:45%;
-  left:20%;
-   color:white;
-}
+
 
  button{
    background: steelblue;
    border:none;
    color:white;
   width:auto;
+  margin-top:50%;
 }
  .link{
   text-decoration:none;
